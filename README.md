@@ -2,7 +2,7 @@
 
 ## Description
 
-Simple task board for managing new and pending tasks. 
+This is to be a simple task board for managing new and pending tasks but it is incomplete/work in progress. 
 
 ## Links
 
@@ -11,6 +11,8 @@ Simple task board for managing new and pending tasks.
 
 ## Visuals
 
-
+<img src="./assets/images/Landing-page.png" alt="image of task board landing page with blank entries">
 
 ## License
+
+N/A

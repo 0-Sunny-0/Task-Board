@@ -24,22 +24,22 @@
   <!-- Add Task Button for Modal -->
   <div class="container">
     <div class="text-center mb-5">
-      <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#formModal">Add Task</button>
+      <button class="btn btn-success" id="addTaskButton" data-bs-toggle="modal" data-bs-target="#formModal">Add Task</button>
     </div>
     
     <!-- Todo: Create a modal with a form to add tasks -->
 
 <!-- Modal -->
-<div class="modal fade" id="staticBackdrop4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+<div class="modal fade" id="taskModal" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
   <div class="modal-dialog d-flex justify-content-center">
       <div class="modal-content w-75">
           <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel4">Write to us</h5>
+              <h5 class="modal-title" id="exampleModalLabel4">Add Task</h5>
               <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body p-4">
-              <form>
-                  <!-- Tast Title input -->
+              <form class="task-form" id="taskForm">
+                  <!-- Task Title input -->
                   <div data-mdb-input-init class="form-outline mb-4">
                       <input type="text" id="name4" class="form-control" />
                       <label class="form-label" for="name4">Task Title</label>
@@ -58,7 +58,7 @@
                   </div>
 
                   <!-- Add Task button -->
-                  <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block">Add Task</button>
+                  <button type="submit" id="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block">Add Task</button>
               </form>
           </div>
       </div>
